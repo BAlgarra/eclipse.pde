@@ -46,6 +46,8 @@ public class FeatureDependenciesPage extends PDEFormPage {
 
 	@Override
 	protected void createFormContent(IManagedForm managedForm) {
+
+		System.out.println("Inside FeatureDependenciesPage.createFormContent()========= line 50"); //$NON-NLS-1$
 		ScrolledForm form = managedForm.getForm();
 		FormToolkit toolkit = managedForm.getToolkit();
 		form.getBody().setLayout(FormLayoutFactory.createFormGridLayout(true, 2));
